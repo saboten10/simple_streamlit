@@ -4,9 +4,9 @@ import streamlit as st
 
 
 def main():
-    # Streamlit が対応している任意のオブジェクトを可視化する (ここでは文字列)
+    # Streamlit code
 
-    st.title('シンプルstreamlitアプリ')
+    st.title('シンプルな　streamlitアプリです')
     st.markdown('** Hellow World!!')
 #   
 if __name__ == '__main__':
