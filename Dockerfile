@@ -1,4 +1,5 @@
 # For more information, please refer to https://aka.ms/vscode-docker-python
+# you can reduce the docker image size by using python:alpine
 #FROM python:3.8
 FROM python:3.8-alpine
 
@@ -12,7 +13,7 @@ ENV PYTHONUNBUFFERED=1
 #RUN apt-get update && apt-get upgrade -y
 
 # for python:alpin
-RUN apk add update && apk add upgrade -y
+RUN apk update
 
 WORKDIR /app
 
