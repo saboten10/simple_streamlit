@@ -12,10 +12,12 @@ This program will display the simple streamlit UI.
 
 This program contains the following command in the Streamlit.
 
-streamlit.title()
-streamlit.markdown()
+* streamlit.title()
+* streamlit.markdown()
 
 Just sample!
+
+
 You can add the your code to sample program.  (^_^)v
 
 # Requirement
@@ -49,8 +51,8 @@ I have checked this source , streamlit and IBM Cloud Code Engine envirionment on
 
 In that case, docker image file size are..
 
-Using Python-slim : 270MB
-      Python      : 570MB
+* Using Python-slim : 270MB
+*       Python      : 570MB
 
 F.Y.I.
 
@@ -60,5 +62,7 @@ F.Y.I.
 * saboten102003@gmail.com
 
 # License
-This sample program is license free
-enjoy!
+This sample program is license free.
+
+
+please enjoy your code! (^_^)
