@@ -1,42 +1,58 @@
-# Name（リポジトリ/プロジェクト/OSSなどの名前）
+# Simple Stremlit sample program
 
-分かりやすくてカッコイイ名前をつける（今回は"hoge"という名前をつける）
-
-"hoge"が何かを簡潔に紹介する
+This program is a simple sample program using Streamlit.
+Use this program to deploy to IBM Cloud Code Engine.
 
 # DEMO
+This program will display the simple streamlit UI.
 
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+![Screenshot 2022-01-30 13 48 20](https://user-images.githubusercontent.com/37370521/151687066-482e32ee-3fa1-4840-945c-20c747ae9807.png)
 
 # Features
 
-"hoge"のセールスポイントや差別化などを説明する
+This program contains the following command in the Streamlit.
+
+streamlit.title()
+streamlit.markdown()
+
+Just sample!
+You can add the your code to sample program.  (^_^)v
 
 # Requirement
 
-"hoge"を動かすのに必要なライブラリなどを列挙する
+following python library is needed.
 
 * streamlit
 
 # Installation
 
-Requirementで列挙したライブラリなどのインストール方法を説明する
+This sample program use the streamlit library.
+If you run this sample on your local phtyon environment, you have to install streamlit library.
 
 ```bash
 pip install streamlit
 ```
+When you run on the IBM Cloud Code Engine, pip command is described in the Dockerfile. You don't necessary to install streamlit library.
 
 # Usage
 
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
+On IBM Cloud Code Engine environment, you just access the target URL by using your browser.
+The target URL will be assing when you deploy IBM Cloud.
 
+If you want to run on the your local environment.
+You can run the following simple command.
 ```bash
 streamlit run sample1.py
 ```
-
 # Note
+I have checked this source , streamlit and IBM Cloud Code Engine envirionment on January 20222.
 
-注意点などがあれば書く
+In that case, docker image file size are..
+
+Using Python-slim : 270MB
+      Python      : 570MB
+
+F.Y.I.
 
 # Author
 
