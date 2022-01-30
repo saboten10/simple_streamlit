@@ -49,12 +49,11 @@ streamlit run sample1.py
 # Note
 I have checked this source , streamlit and IBM Cloud Code Engine envirionment on January 20222.
 
-In that case, docker image file size are..
+## F.Y.I. Docker image file size
 
-* Using Python-slim : 270MB
-*       Python      : 570MB
-
-F.Y.I.
+On my environment, docker image file size are:
+* Python-slim : 270MB
+* Python      : 570MB
 
 # Author
 
